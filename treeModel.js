@@ -1,15 +1,15 @@
 const tree = {
     name: "World",
-    continent: [
+    continents: [
         {
             continentName: "Asia",
-            country: [
+            countries: [
                 {
                     countryName: "India",
                     states: [
                         {
                             stateName: "Tamil Nadu",
-                            district: [
+                            districts: [
                                 {
                                     districtName: "Chennai",
                                 }, {
@@ -22,7 +22,7 @@ const tree = {
                         },
                         {
                             stateName: "Kerala",
-                            district: [
+                            districts: [
                                 {
                                     districtName: "Alappuzha",
                                 }, {
@@ -34,7 +34,7 @@ const tree = {
                         },
                         {
                             stateName: "Rajasthan",
-                            district: [
+                            districts: [
                                 {
                                     districtName: "Ajmer ",
                                 }, {
