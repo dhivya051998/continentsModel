@@ -1,16 +1,16 @@
 interface district{
-    name:string,
+    districtName:string,
 }
 interface states{
-    name:string,
+    stateName:string,
     districts:district[]
 }
 interface country{
-    name:string,
+    countryName:string,
     states:states[]
 }
 interface continent{
-    name:string,
+    continentName:string,
     countries:country[]
 }
 interface treeModel{
